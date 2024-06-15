@@ -15,6 +15,14 @@ O projeto "Sistema de Monitoramento com Gateway LoRaWAN para o gerenciamento da 
 
 Continue lendo para obter uma visão detalhada da implementação do projeto, que inclui instruções de montagem de hardware, configuração de software e operação do sistema.
 
+## Hardware
+
+### Esp 32 Lora Wifi V3)
+
+
 ## Esquema de Conexão
+
+###
+
 
  
