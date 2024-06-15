@@ -17,13 +17,13 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ## Hardware
 
-### Sensor de corrente não invasivo
+### Sensor de corrente não invasivo (SCT-013)
 <p>Os sensores de corrente são responsáveis por medir os níveis de corrente dos postes de iluminação até 15A.</p>
 <div align="center">
     <img src="hardware_utilizado/sensor de corrente.png" width="250" height="200">
 </div>
 
-### Sensor de luminosidade
+### Sensor de luminosidade (LDR)
 <p>Os sensores de luminosidade são responsáveis por medir os níveis de luminosidade dos postes de iluminação através da variação de sua resistência interna.</p>
 <div align="center">
     <img src="hardware_utilizado/sensor de luminosidade.png" width="250" height="200">
