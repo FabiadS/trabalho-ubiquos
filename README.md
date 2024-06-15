@@ -31,6 +31,9 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ### Gateway Dragino
 <p>Responsável por coletar dados enviados pelo Lora e transmiti-los para a nuvem IoT.</p>
+<div align="center">
+    <img src="hardware_utilizado/dragino.png" width="250" height="200">
+</div>
 
 ### Esp 32 Lora Wifi (V3)
 <p>Responsável pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
