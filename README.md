@@ -17,16 +17,17 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ## Hardware
 
-### Sensor de corrente
+### Sensor de corrente não invasivo
+<p>Os sensores de corrente são responsáveis por medir os níveis de corrente dos postes de iluminação até 15A.</p>
 
 ### Sensor de luminosidade
 <p>Os sensores de luminosidade são responsáveis por medir os níveis de luminosidade dos postes de iluminação através da variação de sua resistência interna.</p>
 
-
 ### Gateway Dragino
+<p>Responsável por coletar dados enviados pelo Lora e transmiti-los para a nuvem IoT.</p>
 
-### Esp 32 Lora Wifi V3)
-<p>Responsavel pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
+### Esp 32 Lora Wifi (V3)
+<p>Responsável pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
 <img src="hardware_utilizado/esp 32 wifi v3.png">
 
 
