@@ -45,5 +45,11 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ###
 
+## Links importantes
+### [Documentação oficial](https://www.thethingsindustries.com/docs/integrations/cloud-integrations/thingspeak/)
+### [Endpoint](https://api.thingspeak.com/things_network/v3/update)
+
+
+
 
  
