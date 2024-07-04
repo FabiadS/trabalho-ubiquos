@@ -16,6 +16,7 @@ O projeto "Sistema de Monitoramento com Gateway LoRaWAN para o gerenciamento da 
 Continue lendo para obter uma visão detalhada da implementação do projeto, que inclui instruções de montagem de hardware, configuração de software e operação do sistema.
 
 ## Hardware
+Os principais dispositivos de hardware estão mostrados nessa seção, mas no [Esquema de conexão](#esquema-de-conexão) podemos observar todos os outros dispositivos (resistores).
 
 ### Sensor de corrente não invasivo (SCT-013)
 <p>Os sensores de corrente são responsáveis por medir os níveis de corrente dos postes de iluminação até 15A.</p>
