@@ -49,15 +49,6 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 #### Dragino
 <p>Utilizar a frequência da Austrália AU915 e faixa de frequências 1.</p>
 
-#### TTN
-<p>Criar dispositivo customizado usando **OBRIGATORIAMENTE** a **classe C** e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
-<img src="software_config/configuracao_TTN.png">
-
-Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é preciso que haja uma decodificação da mensagem do ESP no TTN. Para isso, é preciso seguir os seguintes passos:
-1. Ir no payload formatter e selecionar a opção "custom javascript"
-2. Usar o seguinte código:
-   <img src="software_config/configuracao_TTN.png">
-
 #### Arduino IDE
 - Utilizar como código de exemplo do fabriacante (HELTEC ESP 32 → LORAWAN → LORAWAN), lembrando de configurar a região nas opções como AU e trocar a classe para C.
 
@@ -76,6 +67,21 @@ Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é pre
         appData[i] = (uint8_t)message[i]; // Convert each character to its ASCII value
     }
 
+#### TTN
+<p>Criar dispositivo customizado usando **OBRIGATORIAMENTE** a **classe C** e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
+<img src="software_config/configuracao_TTN.png">
+
+Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é preciso que haja uma decodificação da mensagem do ESP no TTN. Para isso, é preciso seguir os seguintes passos:
+1. Ir no payload formatter e selecionar a opção "custom javascript"
+2. Usar o código abaixo.
+<img src="software_config/configuracao_TTN_2.png">
+
+#### ThinkSpeak
+Basta seguir a documentação oficial e utilizar o endpoint abaixo.
+
+- [Documentação oficial](https://www.thethingsindustries.com/docs/integrations/cloud-integrations/thingspeak/)
+- [Endpoint](https://api.thingspeak.com/things_network/v3/update)
+
 
 
 ## Esquema de Conexão
@@ -83,9 +89,6 @@ Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é pre
 
 ###
 
-## Links importantes
-### [Documentação oficial](https://www.thethingsindustries.com/docs/integrations/cloud-integrations/thingspeak/)
-### [Endpoint](https://api.thingspeak.com/things_network/v3/update)
 
 
 
