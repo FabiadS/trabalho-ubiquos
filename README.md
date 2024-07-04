@@ -41,7 +41,13 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ## Software
 
-## Softwares Utilizados
+### Softwares Utilizados
+
+#### Arduino IDE
+
+#### The Things Network
+
+#### ThinkSpeak
 
 
 ### Configurações
