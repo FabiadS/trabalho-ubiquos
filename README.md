@@ -98,7 +98,9 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 ## Esquema de Conexão
 <img src="hardware_utilizado/esquema_conexao.jpg">
 
-###
+## Instalação
+1. Instale a última versão da Arduino IDE a partir do [site oficial](https://www.arduino.cc/en/software).
+2. 
 
 
 
