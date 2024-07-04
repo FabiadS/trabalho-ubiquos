@@ -17,12 +17,54 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ## Hardware
 
-### Esp 32 Lora Wifi V3)
+### Sensor de corrente não invasivo (SCT-013)
+<p>Os sensores de corrente são responsáveis por medir os níveis de corrente dos postes de iluminação até 15A.</p>
+<div align="center">
+    <img src="hardware_utilizado/sensor de corrente.png" width="250" height="200">
+</div>
+
+### Sensor de luminosidade (LDR)
+<p>Os sensores de luminosidade são responsáveis por medir os níveis de luminosidade dos postes de iluminação através da variação de sua resistência interna.</p>
+<div align="center">
+    <img src="hardware_utilizado/sensor de luminosidade.png" width="250" height="200">
+</div>
+
+### Gateway Dragino
+<p>Responsável por coletar dados enviados pelo Lora e transmiti-los para a nuvem IoT.</p>
+<div align="center">
+    <img src="hardware_utilizado/dragino.png" width="250" height="200">
+</div>
+
+### Esp 32 Lora Wifi (V3)
+<p>Responsável pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
+<img src="hardware_utilizado/esp 32 wifi v3.png">
+
+## Software
+
+## Softwares Utilizados
+
+
+### Configurações
+
+#### Dragino
+<p>Utilizar a frequência da Austrália AU915 e faixa de frequências 1.</p>
+
+#### TTN
+<p>Criar dispositivo customizado usando **OBRIGATORIAMENTE** a **classe C** e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
+<img src="hardware_utilizado/esp 32 wifi v3.png">
+
 
 
 ## Esquema de Conexão
+<img src="hardware_utilizado/esquema_conexao.jpg">
 
 ###
+
+## Links importantes
+### [Documentação oficial](https://www.thethingsindustries.com/docs/integrations/cloud-integrations/thingspeak/)
+### [Endpoint](https://api.thingspeak.com/things_network/v3/update)
+
+
 
 
  
