@@ -43,11 +43,15 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 ### Softwares Utilizados
 
-#### Arduino IDE
+#### [Arduino IDE](https://www.arduino.cc/en/software)
+Ferramenta de desenvolvimento de software de código aberto amplamente utilizada para programar microcontroladores e dispositivos eletrônicos. A comunicação LoRaWAN pode ser implementada em dispositivos Arduino usando módulos LoRa.
 
-#### The Things Network
+#### [The Things Network](https://www.thethingsnetwork.org/)
 
-#### ThinkSpeak
+Fornece uma infraestrutura de rede de código aberto baseada em LoRaWAN, que permite a instalação de gateways e construção de aplicativos IoT em cima dessa infraestrutura.
+
+#### [ThinkSpeak](https://thingspeak.com/)
+A plataforma de IoT ThingSpeak fornece serviços para coleta, visualização e análise de dados de sensores e dispositivos conectados à internet.
 
 
 ### Configurações
