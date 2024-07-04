@@ -51,7 +51,25 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 #### TTN
 <p>Criar dispositivo customizado usando **OBRIGATORIAMENTE** a **classe C** e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
-<img src="hardware_utilizado/esp 32 wifi v3.png">
+<img src="software_config/configuracao_TTN.png">
+
+#### Arduino IDE
+- Utilizar como código de exemplo do fabriacante (HELTEC ESP 32 → LORAWAN → LORAWAN), lembrando de configurar a região nas opções como AU e trocar a classe para C.
+
+    ```DeviceClass_t  loraWanClass = CLASS_C;```
+
+- Para ler os dados das portas, deve-se usar OBRIGATORIAMENTE a numeração do GPIO (senão vai dar problema de leitura, e na pinagem tem repetição das portas).
+
+- Para enviar os dados, que devem ser inteiros, salvar em um array de char, conforme código abaixo:
+  ```
+    char message[24];
+    snprintf(message, sizeof(message), "LDR: %d, Cur: %d", ldrValue, pot);
+
+    appDataSize = strlen(message); // Set appDataSize to the length of the message
+
+    for (int i = 0; i < appDataSize; i++) {
+        appData[i] = (uint8_t)message[i]; // Convert each character to its ASCII value
+    }
 
 
 
