@@ -42,6 +42,7 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 
 
 ## Esquema de Conexão
+<img src="hardware_utilizado/esquema_conexao.jpg">
 
 ###
 
