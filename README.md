@@ -100,7 +100,8 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 
 ## Instalação
 1. Instale a última versão da Arduino IDE a partir do [site oficial](https://www.arduino.cc/en/software).
-2. 
+
+## Documentação do código
 
 
 
