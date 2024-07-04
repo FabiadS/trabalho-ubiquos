@@ -39,6 +39,20 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 <p>Responsável pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
 <img src="hardware_utilizado/esp 32 wifi v3.png">
 
+## Software
+
+## Softwares Utilizados
+
+
+### Configurações
+
+#### Dragino
+<p>Utilizar a frequência da Austrália AU915 e faixa de frequências 1.</p>
+
+#### TTN
+<p>Criar dispositivo customizado usando **OBRIGATORIAMENTE** a **classe C** e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
+<img src="hardware_utilizado/esp 32 wifi v3.png">
+
 
 
 ## Esquema de Conexão
