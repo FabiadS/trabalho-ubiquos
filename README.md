@@ -18,14 +18,13 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 ## Hardware
 Os principais dispositivos de hardware estão mostrados nessa seção, mas no [Esquema de conexão](#esquema-de-conexão) podemos observar todos os outros dispositivos (resistores).
 
-### [Sensor de corrente não invasivo (SCT-013)] (https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Sensor%20de%20corrente)
+#### [Sensor de corrente não invasivo (SCT-013)](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Sensor%20de%20corrente)
 
-### Sensor de luminosidade (LDR)
+#### [Sensor de luminosidade (LDR)](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Sensor%20de%20luminosidade)
 
+#### [Gateway Dragino](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Dragino)
 
-### Gateway Dragino
-
-### Esp 32 Lora Wifi (V3)
+#### [Esp 32 Lora Wifi (V3)](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/ESP32%20Wifi%20V3)
 
 ## Software
 
