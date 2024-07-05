@@ -18,27 +18,14 @@ Continue lendo para obter uma visão detalhada da implementação do projeto, qu
 ## Hardware
 Os principais dispositivos de hardware estão mostrados nessa seção, mas no [Esquema de conexão](#esquema-de-conexão) podemos observar todos os outros dispositivos (resistores).
 
-### Sensor de corrente não invasivo (SCT-013)
-<p>Os sensores de corrente são responsáveis por medir os níveis de corrente dos postes de iluminação até 15A.</p>
-<div align="center">
-    <img src="hardware_utilizado/sensor de corrente.png" width="250" height="200">
-</div>
+### [Sensor de corrente não invasivo (SCT-013)] (https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Sensor%20de%20corrente)
 
 ### Sensor de luminosidade (LDR)
-<p>Os sensores de luminosidade são responsáveis por medir os níveis de luminosidade dos postes de iluminação através da variação de sua resistência interna.</p>
-<div align="center">
-    <img src="hardware_utilizado/sensor de luminosidade.png" width="250" height="200">
-</div>
+
 
 ### Gateway Dragino
-<p>Responsável por coletar dados enviados pelo Lora e transmiti-los para a nuvem IoT.</p>
-<div align="center">
-    <img src="hardware_utilizado/dragino.png" width="250" height="200">
-</div>
 
 ### Esp 32 Lora Wifi (V3)
-<p>Responsável pela comunicação sem fio entre os sensores de corrente, luminosidade e o gateway através do recurso de rede LoRaWan.</p>
-<img src="hardware_utilizado/esp 32 wifi v3.png">
 
 ## Software
 
