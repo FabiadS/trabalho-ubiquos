@@ -85,7 +85,7 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 <img src="hardware_utilizado/esquema_conexao.jpg">
 
 ## Imagem do projeto final
-
+<img src="hardware_utilizado/montagem_fisica.jpeg">
 
 
 
