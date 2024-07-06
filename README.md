@@ -79,13 +79,20 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 - [Documentação oficial](https://www.thethingsindustries.com/docs/integrations/cloud-integrations/thingspeak/)
 - [Endpoint](https://api.thingspeak.com/things_network/v3/update)
 
-
-
 ## Esquema de Conexão
 <img src="hardware_utilizado/esquema_conexao.jpg">
 
 ## Imagem do projeto final
 <img src="hardware_utilizado/montagem_fisica.jpeg">
+
+## Materiais utilizados
+- ESP32 Wifi V3
+- Sensor de corrente (SCT013 100A)
+- Sensor de luminosidade (LDR 5 mm)
+- 2 resistores de 10kΩ
+- 1 resistor de 220R Ω
+- 1 resistor de 33R Ω
+- 1 capacitor de 100μF
 
 
 
