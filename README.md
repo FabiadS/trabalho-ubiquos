@@ -13,7 +13,6 @@ O projeto "Sistema de Monitoramento com Gateway LoRaWAN para o gerenciamento da 
 * Estabelecer uma comunicação eficiente entre os sensores de iluminação e o gateway LoRaWAN, garantindo a integridade e confiabilidade dos dados coletados;
 * Busca-se configurar o gateway para enviar os dados de maneira segura e eficaz para a nuvem IoT, assegurando uma transmissão eficiente e uma gestão centralizada dos dados de iluminação pública.
 
-Continue lendo para obter uma visão detalhada da implementação do projeto, que inclui instruções de montagem de hardware, configuração de software e operação do sistema.
 
 ## Hardware
 Os principais dispositivos de hardware estão mostrados nessa seção, mas no [Esquema de conexão](#esquema-de-conexão) podemos observar todos os outros dispositivos (resistores).
@@ -25,6 +24,16 @@ Os principais dispositivos de hardware estão mostrados nessa seção, mas no [E
 #### [Gateway Dragino](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/Dragino)
 
 #### [Esp 32 Lora Wifi (V3)](https://github.com/FabiadS/trabalho-ubiquos/tree/main/hardware_utilizado/ESP32%20Wifi%20V3)
+
+## Resumo do hardware utilizado
+- ESP32 Lora Wifi V3
+- Sensor de corrente (SCT013 100A)
+- Sensor de luminosidade (LDR 5 mm)
+- LoRaWan Gateway (Dragino)
+- 2 resistores de 10kΩ
+- 1 resistor de 220R Ω
+- 1 resistor de 33R Ω
+- 1 capacitor de 100μF
 
 ## Software
 
@@ -85,14 +94,7 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 ## Imagem do projeto final
 <img src="hardware_utilizado/montagem_fisica.jpeg">
 
-## Materiais utilizados
-- ESP32 Wifi V3
-- Sensor de corrente (SCT013 100A)
-- Sensor de luminosidade (LDR 5 mm)
-- 2 resistores de 10kΩ
-- 1 resistor de 220R Ω
-- 1 resistor de 33R Ω
-- 1 capacitor de 100μF
+
 
 
 
