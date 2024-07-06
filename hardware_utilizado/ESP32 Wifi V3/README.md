@@ -1,4 +1,4 @@
-# ESP32 Wifi V3
+# ESP32 Lora Wifi V3
 
 ## Descrição
 
