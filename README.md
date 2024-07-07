@@ -73,6 +73,10 @@ A plataforma de IoT ThingSpeak fornece serviços para coleta, visualização e a
         appData[i] = (uint8_t)message[i]; // Convert each character to its ASCII value
     }
 
+A imagem abaixo apresenta a saída no terminal dos dados vindo do LDR e do cálculo da potência através da corrente lida no SCT013, respectivamente.
+
+<img src="software_config/resultados_cmd.jpeg">
+
 #### TTN
 <p>Criar dispositivo customizado usando OBRIGATORIAMENTE a classe C e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
 <img src="software_config/configuracao_TTN.png">
