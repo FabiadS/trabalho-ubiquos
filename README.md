@@ -42,7 +42,7 @@ Os principais dispositivos de hardware estão mostrados nessa seção, mas no [E
 #### [Arduino IDE](https://www.arduino.cc/en/software)
 Ferramenta de desenvolvimento de software de código aberto amplamente utilizada para programar microcontroladores e dispositivos eletrônicos. A comunicação LoRaWAN pode ser implementada em dispositivos Arduino usando módulos LoRa.
 
-#### [The Things Network](https://www.thethingsnetwork.org/)
+#### [The Things Network (TTN)](https://www.thethingsnetwork.org/)
 
 Fornece uma infraestrutura de rede de código aberto baseada em LoRaWAN, que permite a instalação de gateways e construção de aplicativos IoT em cima dessa infraestrutura.
 
@@ -77,7 +77,8 @@ A plataforma de IoT ThingSpeak fornece serviços para coleta, visualização e a
 <p>Criar dispositivo customizado usando OBRIGATORIAMENTE a classe C e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
 <img src="software_config/configuracao_TTN.png">
 
-<p>Quando os dados são recebidos no TTN, </p>
+<p>A imagem abaixo mostra como os dados chegam no TTN.</p>
+<img src="software_config/dados_TTN.jpeg">
 
 Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é preciso que haja uma decodificação da mensagem do ESP no TTN. Para isso, é preciso seguir os seguintes passos:
 1. Ir no payload formatter e selecionar a opção "custom javascript"
