@@ -21,8 +21,6 @@ Os sensores de corrente são responsáveis por medir os níveis de corrente dos 
 - Temperatura de trabalho: -25 a +70°C
 - Comprimento do cabo: 150 cm
 
-## Pinagem
-
 ## Código
 
 ```bash
