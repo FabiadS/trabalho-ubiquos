@@ -91,9 +91,6 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 ## Esquema de Conexão
 <img src="hardware_utilizado/esquema_conexao.jpg">
 
-## Imagem do projeto final
-<img src="hardware_utilizado/montagem_fisica.jpeg">
-
 ## Pinagem
 
 | Pino                  | Número do Pino | Observações                                                                     |
@@ -103,6 +100,10 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 | `3.3V`                | 2              | Utlizado como VCC para o LDR                                                    |
 | `5V`                  | 2              | Utilizado como VCC para o SCT013                                                |
 | `GND`                 | 1              | Utilizado como GND para os sensores                                             |
+
+
+## Imagem do projeto final
+<img src="hardware_utilizado/montagem_fisica.jpeg">
 
 
 
