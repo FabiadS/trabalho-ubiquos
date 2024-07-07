@@ -18,8 +18,6 @@ Os sensores de luminosidade são responsáveis por medir os níveis de luminosid
 - Resistência no escuro: 1 MΩ (Lux 0)
 - Resistência na luz: 10-20 KΩ (Lux 10)
 
-## Pinagem
-
 ## Código
 ```bash
 
