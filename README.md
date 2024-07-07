@@ -96,7 +96,13 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 
 ## Pinagem
 
-
+| Pino                  | Número do Pino | Observações                                                                     |
+| --------------------- | -------------- | ------------------------------------------------------------------------------- |
+| `LDR`                 | GPIO4          | Utilizado para leitura de dados do sensor LDR                                   |
+| `SCT013`              | GPIO5          | Utilizado para leitura de dados do sensor SCT013                                |
+| `3.3V`                | 2              | Utlizado como VCC para o LDR                                                    |
+| `5V`                  | 2              | Utilizado como VCC para o SCT013                                                |
+| `GND`                 | 1              | Utilizado como GND para os sensores                                             |
 
 
 
