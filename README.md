@@ -77,6 +77,8 @@ A plataforma de IoT ThingSpeak fornece serviços para coleta, visualização e a
 <p>Criar dispositivo customizado usando OBRIGATORIAMENTE a classe C e faixa de frequências 1 (a comunicação falha se for diferente). Pode-se utilizar a TTN para gerar os ids necessários para o código (devEUI, appEUI e appkey), conforme mostra a imagem abaixo. </p>
 <img src="software_config/configuracao_TTN.png">
 
+<p>Quando os dados são recebidos no TTN, </p>
+
 Além disso, para os dados serem enviados corretamente para o ThinkSpeak, é preciso que haja uma decodificação da mensagem do ESP no TTN. Para isso, é preciso seguir os seguintes passos:
 1. Ir no payload formatter e selecionar a opção "custom javascript"
 2. Usar o código abaixo.
