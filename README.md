@@ -94,6 +94,9 @@ Basta seguir a documentação oficial e utilizar o endpoint abaixo.
 ## Imagem do projeto final
 <img src="hardware_utilizado/montagem_fisica.jpeg">
 
+## Pinagem
+
+
 
 
 
